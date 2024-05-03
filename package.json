@@ -1,0 +1,21 @@
+{
+  "name": "keystone-app",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone build --no-ui --frozen"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@keystone-6/auth": "^7.0.0",
+    "@keystone-6/core": "^5.0.0",
+    "@keystone-6/fields-document": "^7.0.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "graphql-shield": "^7.6.5",
+    "typescript": "^4.9.5"
+  }
+}
